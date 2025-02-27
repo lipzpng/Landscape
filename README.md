@@ -3,7 +3,7 @@
 ```shell
 git clone https://github.com/lipzpng/Landscape.git
 
-cd landscape-Project
+cd Landscape
 ```
 
 ## **Start Docker** (if not running)
