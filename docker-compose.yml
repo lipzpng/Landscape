@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  game-dev:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: dotnet watch run
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
